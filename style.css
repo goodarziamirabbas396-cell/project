@@ -1,0 +1,51 @@
+  * {
+    margin: 0;
+    direction: rtl;
+  }
+  header {
+    height: 100vh;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+    background: #fafafa;
+    font-family: sans-serif;
+    background: url("https://cdn.honarechehre.ir/images/df6d47a0-db4e-11ef-b676-fb0d2147b743.webp") no-repeat center center/cover;
+  }
+  .box {
+    background: rgba(201, 103, 11, 0.555);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 122 4px 10px rgba(88, 28, 167, 0.411);
+    text-align: center;
+  }
+  .box1 {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  a {
+    display: inline-block;
+    padding: 12px 23px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: .2s;
+    border: 3px solid #1e1599;
+    color: #111;
+    background-color: rgba(20, 140, 220, 0.473);
+    text-shadow: 2px 2px 4px rgb(0, 0, 0)
+  }
+  a:hover {
+    transform: translateY(-3px);
+    background-color: rgba(249, 251, 255, 0.589);
+    color: rgb(0, 0, 0);
+    text-shadow: 6px 5px 2px rgb(40, 9, 124);
+  }
+  p {
+    font-weight: bold;
+    max-width: 400px;
+    font-size: 16px;
+    color: #020202;
+    text-shadow: 5px 4px 4px rgb(68, 0, 255);
+  }
